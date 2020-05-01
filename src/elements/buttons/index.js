@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import propTypes from 'prop-types'
-import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom'
+
 
 export default function Button(props) {
 
@@ -24,7 +24,7 @@ export default function Button(props) {
                     props.isLoading ? (<>
                         <span className="spinner-border spinner-border-sm mx-5"></span>
                         <span className="sr-only">Loading...</span>
-                    </>) : (props.childern)
+                    </>) : (props.children)
                 }
             </span>
         );
@@ -37,7 +37,7 @@ export default function Button(props) {
             return (
                 <a href={props.href} className={className.join(" ")} style={props.style}
                     target={props.target === "_blank" ? "_blank" : undefined}
-                    target={props.target === "_blank" ? "noopener noreferrer" : undefined}>{props.childern}</a>
+                    target={props.target === "_blank" ? "noopener noreferrer" : undefined}>{props.children}</a>
             )
         } else {
             return (
@@ -46,7 +46,7 @@ export default function Button(props) {
                     style={props.style}
                     onClick={onClick}
                 >
-                    {props.childern}
+                    {props.children}
                 </Link>
             )
         }
@@ -55,7 +55,7 @@ export default function Button(props) {
         className={className.join("")}
         style={props.style}
         onClick={onClick}>
-        {props.childern}
+        {props.children}
     </button>;
 }
 

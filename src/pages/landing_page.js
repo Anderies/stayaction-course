@@ -1,9 +1,12 @@
-import React from 'react'
-import '../elements/buttons'
-export default function landing_page() {
-    return (
-        <div>
+import React, { Component } from 'react'
+import Header from "../parts/header";
 
-        </div>
-    )
+export default class landing_page extends Component{
+    render() {
+        return (
+            <>
+                <Header {...this.props}></Header>
+            </>
+        );
+    }
 }
