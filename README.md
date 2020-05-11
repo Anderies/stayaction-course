@@ -4,11 +4,17 @@ this web apps designed and built by buildwithangga.com as a course to teach audi
 that using one of modern javascript framework React.js
 
 Stacks : 
-Mongodb
-Express
-React.js
-Node
+* Mongodb
+* Express
+* React.js
+* Node
+
 ![Preview Project](https://raw.githubusercontent.com/Anderies/stayaction-course/master/src/assets/images/githubpreview.png)
+
+
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
