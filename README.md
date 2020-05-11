@@ -1,3 +1,15 @@
+### Staycation Web Apps
+
+this web apps designed and built by buildwithangga.com as a course to teach audience (entry level) based Project Course 
+that using one of modern javascript framework React.js
+
+Stacks : 
+Mongodb
+Express
+React.js
+Node
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
